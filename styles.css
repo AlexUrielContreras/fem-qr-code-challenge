@@ -12,18 +12,31 @@ body {
 .attribution a {
     color: hsl(228, 45%, 44%); 
 }
-
 main {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center
 }
-
 .outer-container {
-    width: 100px;
-    height: 600px;
+    width: 350px;
+    height: 550px;
     background-color: hsl(0, 0%, 100%);
+    border-radius: 30px 
+}
+.qr-img-div {
+    height: 300px;
+    width: 300px;
+    background-color: hsl(220, 15%, 55%);
+    margin: 20px auto;
+    border-radius: 30px
+}
+.text-div {
+    text-align: center;
+    margin-top: 30px
+}
+p {
+    margin-top: 20px
 }
 footer {
     position: fixed;
